@@ -9,9 +9,10 @@ export default function Home() {
           src="/leftSide.png"
           alt="Quote Generator"
           className="transparent"
-          width={400}
-          height={200}
-          loading="lazy"
+          width={340}
+          height={100}
+          // loading="lazy"
+          priority
         />
       </div>
       <QuoteCard />
